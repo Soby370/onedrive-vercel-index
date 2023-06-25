@@ -7,7 +7,7 @@ module.exports = {
   // Make sure this is exactly the same as the email address you use to sign into your Microsoft account.
   // You can also put this in your Vercel's environment variable 'NEXT_PUBLIC_USER_PRINCIPLE_NAME' if you worry about
   // your email being exposed in public.
-  userPrincipalName: process.env.NEXT_PUBLIC_USER_PRINCIPLE_NAME || 'admin@culturecloud.onmicrosoft.com',
+  userPrincipalName: process.env.NEXT_PUBLIC_USER_PRINCIPLE_NAME || 'admin@culturecloud.eu.org',
 
   // [OPTIONAL] This is the website icon to the left of the title inside the navigation bar. It should be placed under the
   // /public directory of your GitHub project (not your OneDrive folder!), and referenced here by its relative path to /public.
@@ -29,11 +29,11 @@ module.exports = {
   // [OPTIONAL] We use Google Fonts natively for font customisations.
   // You can check and generate the required links and names at https://fonts.google.com.
   // googleFontSans - the sans serif font used in onedrive-vercel-index.
-  googleFontSans: 'Roboto Slab',
+  googleFontSans: 'Cagliostro',
   // googleFontMono - the monospace font used in onedrive-vercel-index.
   googleFontMono: 'Roboto Mono',
   // googleFontLinks -  an array of links for referencing the google font assets.
-  googleFontLinks: ['https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto+Slab:wght@400;500;700&display=swap'],
+  googleFontLinks: ['https://fonts.googleapis.com/css2?family=Cagliostro&family=Roboto+Mono&display=swap'],
 
   // [OPTIONAL] The footer component of your website. You can write HTML here, but you need to escape double
   // quotes - changing " to \". You can write anything here, and if you like badges, generate some with https://shields.io
