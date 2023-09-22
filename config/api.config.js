@@ -1,4 +1,4 @@
- /**
+/**
  * This file contains the configuration for the API endpoints and tokens we use.
  *
  * - If you are a OneDrive International user, you would not have to change anything here.
